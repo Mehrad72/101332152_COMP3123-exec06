@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const app = express();
-const DB_URL = "mongodb+srv://mehrad72:khafan123@data-base.6fusqhj.mongodb.net/?retryWrites=true&w=majority"
+const DB_URL = "mongodb+srv://mehrad72:yZCk4KpLViZgXQP5@data-base.6fusqhj.mongodb.net/?retryWrites=true&w=majority"
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use("/api/v1/", require("./routes/NoteRoutes.js"))
